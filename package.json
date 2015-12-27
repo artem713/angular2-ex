@@ -1,0 +1,19 @@
+{
+  "name": "angular2-ex",
+  "version": "0.0.1",
+  "description": "",
+  "license": "Apache-2.0",
+  "scripts": {
+    "clean": "rimraf app/**/*.js app/**/*.js.map",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "http-server -p 9000 -c-1"
+  },
+  "devDependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "http-server": "^0.8.5",
+    "rimraf": "^2.4.3",
+    "systemjs": "^0.19.4",
+    "typescript": "1.6.2"
+  }
+}

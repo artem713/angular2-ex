@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>angular2-quickstart</title>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script>
+      System.config({
+        packages: {'app': {defaultExtension: 'js'}}
+      });
+      System.import('app/bootstrap').catch(function(err) {
+        console.log('error while importing:');
+        console.log(err);
+        console.log(err.stack);
+      });
+    </script>
+  </head>
+  <body>
+    <display>Loading...</display>
+  </body>
+</html>
